@@ -5,12 +5,14 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    min-width: 1145px;/*1115*/
     margin: 0;
 }
 
 .container {
-    width: 1113px;
-    margin: 0px auto;
+    width: 1145px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .first-screen-wrapper {
