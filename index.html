@@ -7,275 +7,305 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IT студия</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
 </head>
 <body>
-<div class="first-screen">
+<div class="first-screen-wrapper">
     <div class="navbar">
-        <nav class="menu">
-            <a class="menu-item active" href="#">Главная</a>
-            <a class="menu-item" href="#">Наши проекты</a>
-            <a class="menu-item" href="#">Услуги</a>
-            <a class="menu-item" href="#">Новости</a>
-            <a class="menu-item" href="#">Контакты</a>
-        </nav>
+        <div class="container">
+            <nav class="menu">
+                <a class="menu-item active" href="#">Главная</a>
+                <a class="menu-item" href="#">Наши проекты</a>
+                <a class="menu-item" href="#">Услуги</a>
+                <a class="menu-item" href="#">Новости</a>
+                <a class="menu-item" href="#">Контакты</a>
+            </nav>
+        </div>
     </div>
+    <div class="container">
+        <div class=" first-screen__info">
+            <div class="first-screen__title">Передовая IT студия</div>
+            <h1 class="first-screen__preview">Мы создаем легкие решения сложных задач и проблем</h1>
+            <button class="button">Наши проекты</button>
+        </div>
+    </div>
+</div>
 
-    <div class="first-screen__info">
-        <div class="first-screen__title">Передовая IT студия</div>
-        <div class="first-screen__preview">Мы создаем легкие решения
-            сложных задач и проблем
-        </div>
-        <button class="button first-screen__button">Наши проекты</button>
-    </div>
-</div>
-<div class="services">
-    <div class="services-info">
-        <div class="services-info__title">
-            Мы создаем мобильные приложения для крупных корпораций
-        </div>
-        <div class="services-info__preview">
-            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
-            "рыбой" для текстов на латинице с начала XVI века.
-        </div>
-        <div class="services-info__items">
-            <div class="services-info__item">
-                <div class="services-info__item-logo">
-                    <div class="circle1">
-                        <div class="circle2">
-                            <img src="images/project.png" class="logo" alt=" "/>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-info__item-info">
-                    <div class="services-info__item-title">
-                        Создание сайтов
-                    </div>
-                    <div class="services-info__item-text">
-                        Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.
-                    </div>
-                </div>
+
+<div class="services-wrapper">
+    <div class="container">
+        <div class="services">
+            <div class="services__title services-info__text">
+                Мы создаем мобильные приложения для крупных корпораций
             </div>
-            <div class="services-info__item">
-                <div class="services-info__item-logo">
-                    <div class="circle1">
-                        <div class="circle2">
-                            <img src="images/project.png" class="logo"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-info__item-info">
-                    <div class="services-info__item-title">
-                        Создание сайтов
-                    </div>
-                    <div class="services-info__item-text">
-                        Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.
-                    </div>
-                </div>
-            </div>
-            <div class="services-info__item">
-                <div class="services-info__item-logo">
-                    <div class="circle1">
-                        <div class="circle2">
-                            <img src="images/project.png" class="logo"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-info__item-info">
-                    <div class="services-info__item-title">
-                        Создание сайтов
-                    </div>
-                    <div class="services-info__item-text">
-                        Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="button services-info__button">Все услуги</button>
-    </div>
-</div>
-<div class="about-us">
-    <div class="about-us__info">
-        <div class="about-us__text">
-            <div class="about-us__title">
-                Высокие стандарты разработки
-            </div>
-            <div class="about-us__preview">
+            <div class="services__preview services__text">
                 Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-                стандартной "рыбой" для текстов на латинице с начала XVI века. стандартной "рыбой" для текстов на
-                латинице с начала XVI века.
+                стандартной
+                "рыбой" для текстов на латинице с начала XVI века.
             </div>
-            <a href="#" class="about-us__link">
-                Подробнее о компании
-            </a>
-        </div>
-        <img class="about-us__image" src="images/about.png" class="logo"/>
-    </div>
-    <div class="about-us__numbers">
-        <div class="about-us__numbers-item">
-            <div class="about-us__numbers-item-counter">
-                <img class="about-us__numbers-item-icon" src="images/web-programming.jpg" alt="">
-                <div class="about-us__numbers-item-count">
-                    125
+            <div class="services__items">
+                <div class="services__item">
+                    <div class="services__item-logo">
+                        <div class="circle1">
+                            <div class="circle2">
+                                <img src="images/project.png" class="logo" alt=" "/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__item-info">
+                        <div class="services__item-title">
+                            Создание сайтов
+                        </div>
+                        <div class="services__item-text">
+                            Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.
+                        </div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item-logo">
+                        <div class="circle1">
+                            <div class="circle2">
+                                <img src="images/project.png" class="logo"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__item-info">
+                        <div class="services__item-title">
+                            Создание сайтов
+                        </div>
+                        <div class="services__item-text">
+                            Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.
+                        </div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item-logo">
+                        <div class="circle1">
+                            <div class="circle2">
+                                <img src="images/project.png" class="logo"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__item-info">
+                        <div class="services__item-title">
+                            Создание сайтов
+                        </div>
+                        <div class="services__item-text">
+                            Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="about-us__numbers-item-text">Our projects</div>
-        </div>
-        <div class="about-us__numbers-item">
-            <div class="about-us__numbers-item-counter">
-                <img class="about-us__numbers-item-icon" src="images/web-programming.jpg" alt="">
-                <div class="about-us__numbers-item-count">
-                    125
-                </div>
-            </div>
-            <div class="about-us__numbers-item-text">Our projects</div>
-        </div>
-        <div class="about-us__numbers-item">
-            <div class="about-us__numbers-item-counter">
-                <img class="about-us__numbers-item-icon" src="images/web-programming.jpg" alt="">
-                <div class="about-us__numbers-item-count">
-                    125
-                </div>
-            </div>
-            <div class="about-us__numbers-item-text">Our projects</div>
-        </div>
-        <div class="about-us__numbers-item">
-            <div class="about-us__numbers-item-counter">
-                <img class="about-us__numbers-item-icon" src="images/web-programming.jpg" alt="">
-                <div class="about-us__numbers-item-count">
-                    125
-                </div>
-            </div>
-            <div class="about-us__numbers-item-text">Our projects</div>
-        </div>
-        <div class="about-us__numbers-item">
-            <div class="about-us__numbers-item-counter">
-                <img class="about-us__numbers-item-icon" src="images/web-programming.jpg" alt="">
-                <div class="about-us__numbers-item-count">
-                    125
-                </div>
-            </div>
-            <div class="about-us__numbers-item-text">Our projects</div>
+            <button class="button">Все услуги</button>
         </div>
     </div>
 </div>
-<div class="all-services">
-    <div class="all-services__header">
-        <div class="all-services__header-title">Наши работы, на которых мы специализируемся</div>
-        <button class="button all-services__header-button">Все услуги</button>
-    </div>
-    <div class="all-services__tiles">
-        <div class="all-services__tile">
-            <img src="images/all-services.png" class="all-services__tile-image"/>
-            <div class="all-services__tile-title">
-                <div class="link-color">01.</div>
-                <div> Исследование и упаковка</div>
+<div class="about-us-wrapper">
+    <div class="container">
+        <div class="about-us">
+            <div class="about-us__text">
+                <div class="about-us__title">
+                    Высокие стандарты разработки
+                </div>
+                <div class="about-us__preview">
+                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+                    стандартной "рыбой" для текстов на латинице с начала XVI века. стандартной "рыбой" для текстов на
+                    латинице с начала XVI века.
+                </div>
+                <a href="#" class="about-us__link">
+                    Подробнее о компании
+                </a>
             </div>
-            <div class="all-services__tile-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-            </div>
-            <a href="#" class="all-services__tile-link">Подробнее</a>
+            <img class="about-us__image logo" src="images/about.png" alt="image"/>
         </div>
-        <div class="all-services__tile">
-            <img src="images/all-services.png" class="all-services__tile-image"/>
-            <div class="all-services__tile-title">
-                <div class="link-color">01.</div>
-                <div> Исследование и упаковка</div>
+        <div class="about-us__numbers">
+            <div class="about-us__numbers-item">
+                <div class="about-us__numbers-item-counter">
+                    <img class="about-us__numbers-item-icon" src="images/web-programming.jpg" alt="">
+                    <div class="about-us__numbers-item-count">
+                        125
+                    </div>
+                </div>
+                <div class="about-us__numbers-item-text">Our projects</div>
             </div>
-            <div class="all-services__tile-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+            <div class="about-us__numbers-item">
+                <div class="about-us__numbers-item-counter">
+                    <img class="about-us__numbers-item-icon" src="images/web-programming.jpg" alt="">
+                    <div class="about-us__numbers-item-count">
+                        125
+                    </div>
+                </div>
+                <div class="about-us__numbers-item-text">Our projects</div>
             </div>
-            <a href="#" class="all-services__tile-link">Подробнее</a>
-        </div>
-        <div class="all-services__tile">
-            <img src="images/all-services.png" class="all-services__tile-image"/>
-            <div class="all-services__tile-title">
-                <div class="link-color">01.</div>
-                <div> Исследование и упаковка</div>
+            <div class="about-us__numbers-item">
+                <div class="about-us__numbers-item-counter">
+                    <img class="about-us__numbers-item-icon" src="images/web-programming.jpg" alt="">
+                    <div class="about-us__numbers-item-count">
+                        125
+                    </div>
+                </div>
+                <div class="about-us__numbers-item-text">Our projects</div>
             </div>
-            <div class="all-services__tile-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+            <div class="about-us__numbers-item">
+                <div class="about-us__numbers-item-counter">
+                    <img class="about-us__numbers-item-icon" src="images/web-programming.jpg" alt="">
+                    <div class="about-us__numbers-item-count">
+                        125
+                    </div>
+                </div>
+                <div class="about-us__numbers-item-text">Our projects</div>
             </div>
-            <a href="#" class="all-services__tile-link">Подробнее</a>
+            <div class="about-us__numbers-item">
+                <div class="about-us__numbers-item-counter">
+                    <img class="about-us__numbers-item-icon" src="images/web-programming.jpg" alt="">
+                    <div class="about-us__numbers-item-count">
+                        125
+                    </div>
+                </div>
+                <div class="about-us__numbers-item-text">Our projects</div>
+            </div>
         </div>
     </div>
 </div>
-<div class="all-project">
-    <div class="all-project__title">
-        Наши проекты
+
+
+<div class="all-services-wrapper">
+    <div class="container">
+        <div class="all-services__header">
+            <div class="all-services__header-title">Наши работы, на которых мы специализируемся</div>
+            <button class="button all-services__header-button">Все услуги</button>
+        </div>
+        <div class="all-services__tiles">
+            <div class="all-services__tile">
+                <img src="images/all-services.png" class="all-services__tile-image"/>
+                <div class="all-services__tile-title">
+                    <div class="link-color">01.</div>
+                    <div> Исследование и упаковка</div>
+                </div>
+                <div class="all-services__tile-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                    вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                </div>
+                <a href="#" class="all-services__tile-link">Подробнее</a>
+            </div>
+            <div class="all-services__tile">
+                <img src="images/all-services.png" class="all-services__tile-image"/>
+                <div class="all-services__tile-title">
+                    <div class="link-color">01.</div>
+                    <div> Исследование и упаковка</div>
+                </div>
+                <div class="all-services__tile-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                    вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                </div>
+                <a href="#" class="all-services__tile-link">Подробнее</a>
+            </div>
+            <div class="all-services__tile">
+                <img src="images/all-services.png" class="all-services__tile-image"/>
+                <div class="all-services__tile-title">
+                    <div class="link-color">01.</div>
+                    <div> Исследование и упаковка</div>
+                </div>
+                <div class="all-services__tile-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                    вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                </div>
+                <a href="#" class="all-services__tile-link">Подробнее</a>
+            </div>
+        </div>
     </div>
-    <div class="all-project__text">
-        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
-        "рыбой" для текстов на латинице с начала XVI века.
-    </div>
-    <div class="all-project__images">
-        <img class="all-project__image" src="images/all-projects.png"/>
-        <img class="all-project__image" src="images/all-projects.png"/>
-        <img class="all-project__image" src="images/all-projects.png"/>
-        <img class="all-project__image" src="images/all-projects.png"/>
-    </div>
-    <button class="button all-project__button">Все проекты</button>
 </div>
-<div class="video">
-    <div class="video-header">
-        Видео о нашей работе
-    </div>
-    <div class="video-text">
-        Просто посмотрите, как мы работаем
-    </div>
-    <img class="video-window" src="images/video.png"/>
-    <div class="subscribe-header">
-        Подпишитесь на нашу рассылку
-    </div>
-    <div class="subscribe-text">
-        Полезные статьи, акции, новости - получите все это сейчас!
-    </div>
-    <div class="subscribe-block">
-        <input class="subscribe-input" type="text" placeholder="Ваш e-mail" />
-        <button class="subscribe-button">Подписаться</button>
-    </div>
-    <div class="subscribe-footer">
-        Мы не шлем спам, и передаем никому ваши данные.
+
+
+<div class="all-projects-wrapper">
+    <div class="container">
+        <div class="all-projects">
+            <div class="all-projects__title">
+                Наши проекты
+            </div>
+            <div class="all-projects__text">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+                стандартной
+                "рыбой" для текстов на латинице с начала XVI века.
+            </div>
+            <div class="all-projects__images">
+                <img class="all-projects__image" src="images/all-projects.png" alt="image"/>
+                <img class="all-projects__image" src="images/all-projects.png" alt="image"/>
+                <img class="all-projects__image" src="images/all-projects.png" alt="image"/>
+                <img class="all-projects__image" src="images/all-projects.png" alt="image"/>
+            </div>
+            <button class="button">Все проекты</button>
+        </div>
     </div>
 </div>
-<div class="footer">
-   <div class="footer-container">
-       <div class="footer-column">
-           <div class="footer-title">Контактная информация</div>
-           <div class="footer-block">
-               <a href="#" class="footer-link">email@email.com</a>
-               <a  href="#" class="footer-link">+8 777 555 66 99</a>
-               <a  href="#" class="footer-link">Москва, Бульвар Ленина 33</a>
-           </div>
-       </div>
-       <div class="footer-column">
-           <div class="footer-title">Основные ссылки</div>
-           <div class="footer-block">
-               <a  href="#" class="footer-link"><span>&#62; </span>Главная</a>
-               <a href="#"  class="footer-link"><span>&#62; </span>Наши проекты</a>
-               <a  href="#" class="footer-link"><span>&#62; </span>Наши услуги</a>
-               <a  href="#" class="footer-link"><span>&#62; </span>Контакты</a>
-           </div>
-       </div>
-       <div class="footer-column">
-           <div class="footer-title">Наши проекты</div>
-           <div class="footer-block">
-               <a  href="#" class="footer-link"><span>&#62; </span>РосНано</a>
-               <a  href="#" class="footer-link"><span>&#62; </span>Сколково</a>
-               <a  href="#" class="footer-link"><span>&#62; </span>Проект “Восток”</a>
-               <a  href="#" class="footer-link"><span>&#62; </span>ТЭЦ Калининграда</a>
-           </div>
-       </div>
-       <div class="footer-column">
-           <div class="footer-title">Социальные сети</div>
-           <div class="footer-block">
-               <a  href="#" class="footer-link"><span>&#62; </span>VK.com</a>
-               <a  href="#" class="footer-link"><span>&#62; </span>Instagram</a>
-               <a  href="#" class="footer-link"><span>&#62; </span>Facebook</a>
-               <a  href="#" class="footer-link"><span>&#62; </span>Twitter</a>
-           </div>
-       </div>
-   </div>
+
+
+<div class="video-wrapper">
+    <div class="container">
+        <div class="video">
+            <div class="video-header">
+                Видео о нашей работе
+            </div>
+            <div class="video-text">
+                Просто посмотрите, как мы работаем
+            </div>
+            <img class="video-window" src="images/video.png"/>
+            <div class="subscribe-header">
+                Подпишитесь на нашу рассылку
+            </div>
+            <div class="subscribe-text">
+                Полезные статьи, акции, новости - получите все это сейчас!
+            </div>
+            <div class="subscribe-block">
+                <input class="subscribe-input" type="text" placeholder="Ваш e-mail"/>
+                <button class="subscribe-button">Подписаться</button>
+            </div>
+            <div class="subscribe-footer">
+                Мы не шлем спам, и передаем никому ваши данные.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer-wrapper">
+    <div class="container">
+        <div class="footer">
+            <div class="footer-column">
+                <div class="footer-title">Контактная информация</div>
+                <div class="footer-block">
+                    <a href="#" class="footer-link">email@email.com</a>
+                    <a href="#" class="footer-link">+8 777 555 66 99</a>
+                    <a href="#" class="footer-link">Москва, Бульвар Ленина 33</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Основные ссылки</div>
+                <div class="footer-block">
+                    <a href="#" class="footer-link"><span>&#62; </span>Главная</a>
+                    <a href="#" class="footer-link"><span>&#62; </span>Наши проекты</a>
+                    <a href="#" class="footer-link"><span>&#62; </span>Наши услуги</a>
+                    <a href="#" class="footer-link"><span>&#62; </span>Контакты</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Наши проекты</div>
+                <div class="footer-block">
+                    <a href="#" class="footer-link"><span>&#62; </span>РосНано</a>
+                    <a href="#" class="footer-link"><span>&#62; </span>Сколково</a>
+                    <a href="#" class="footer-link"><span>&#62; </span>Проект “Восток”</a>
+                    <a href="#" class="footer-link"><span>&#62; </span>ТЭЦ Калининграда</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Социальные сети</div>
+                <div class="footer-block">
+                    <a href="#" class="footer-link"><span>&#62; </span>VK.com</a>
+                    <a href="#" class="footer-link"><span>&#62; </span>Instagram</a>
+                    <a href="#" class="footer-link"><span>&#62; </span>Facebook</a>
+                    <a href="#" class="footer-link"><span>&#62; </span>Twitter</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="end">(с) 2019. Все права защищены.</div>
 </div>
 </body>
